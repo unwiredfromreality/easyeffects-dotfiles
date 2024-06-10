@@ -1,0 +1,31 @@
+{
+    "output": {
+        "blocklist": [],
+        "convolver#0": {
+            "autogain": true,
+            "bypass": false,
+            "input-gain": 0.0,
+            "ir-width": 100,
+            "kernel-path": "/home/riley/.config/easyeffects/irs/DTS SRS 2 2 InDaClub Bass headphone.irs",
+            "output-gain": 0.0
+        },
+        "filter#0": {
+            "balance": 0.0,
+            "bypass": false,
+            "equal-mode": "FIR",
+            "frequency": 100.0,
+            "gain": 10.0,
+            "input-gain": 0.0,
+            "mode": "APO (DR)",
+            "output-gain": 0.0,
+            "quality": 4.0,
+            "slope": "x1",
+            "type": "Bell",
+            "width": 4.0
+        },
+        "plugins_order": [
+            "convolver#0",
+            "filter#0"
+        ]
+    }
+}
